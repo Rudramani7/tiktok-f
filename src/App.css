@@ -1,0 +1,33 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.app{
+  height: 100vh;
+  /* background-color: whitesmoke; */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  display: grid;
+  place-items: center;
+}
+
+.app_videos{
+  position: relative;
+  height: 800px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 500px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.app_videos::-webkit-scrollbar{
+  display: none;
+}
+
+.app_videos{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+h1{
+  font-family: cursive;
+}
