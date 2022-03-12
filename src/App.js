@@ -22,7 +22,7 @@ console.log(videos);
 
   return (
     <div className="app">
-      <h1>tikTAk</h1>
+      <h1>tikTok</h1>
 <div className='app_videos'>
   {videos.map(({url, channel, description, song, likes, messages, shares})=>(
     <Video 
